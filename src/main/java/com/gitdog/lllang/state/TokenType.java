@@ -1,0 +1,5 @@
+package com.gitdog.lllang.state;
+
+public enum TokenType {
+	WORD, FUNC, STRING, LINE, EQUALS, OPERATOR, LEFT_PAREN, RIGHT_PAREN, END, INTEGER, DOUBLE, NUMBER, COMMENT, OVER, LEFT_BRACE, RIGHT_BRACE
+}
